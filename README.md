@@ -1,16 +1,13 @@
 # statelfull_vs_stateless
 
-A new Flutter project.
+# StatelessWidget
 
-## Getting Started
+- class widget yang propertinya *immutable*, artinya nilainya tidak bisa diubah
+- widget statis dimana seluruh konfigurasi yang dimuat didalamnya telah diinisiasi sejak awal
+- contoh stateless widget : Icon, IconButton,Text
 
-This project is a starting point for a Flutter application.
+## StatefulWidget
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- bersifat dinamis
+- nilainya dapat berubah
+- contohnya Checkbox, Radio, Slider, InkWell, Form dan TextField
